@@ -1,0 +1,20 @@
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+
+namespace {{namespace}};
+
+public class {{name}}: Controller
+{
+  private readonly ILogger<{{name}}> _logger;
+
+  public {{name}}(ILogger<{{name}}> logger)
+  {
+    _logger = logger;
+  }
+
+  public IActionResult Index()
+  {
+      return Ok("{{name}}");
+  }
+  
+}

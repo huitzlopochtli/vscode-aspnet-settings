@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "fernandoescolar.vscode-solution-explorer",
+    "formulahendry.dotnet-test-explorer",
+    "ms-dotnettools.csharp",
+    "patcx.vscode-nuget-gallery"
+  ]
+}
